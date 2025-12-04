@@ -47,9 +47,7 @@ stm32-dino-game-automation/
 ├── docs/
 │   └── Dinasor.pdf
 ├── src/
-│   └── main.c
-└── hardware/
-    └── wiring_diagram.png    # optional, if you add it
+    └── main.c
 ```
 
 - `README.md` – this documentation file  
