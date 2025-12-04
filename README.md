@@ -3,8 +3,6 @@
 This repository contains the **STM32-based Dino Game Automation** project.  
 An STM32 Nucleo board reads a photoresistor (LDR) pointed at the game screen and uses a servo motor to physically press the keyboard when an obstacle (cactus) is detected, automatically playing the Chrome Dino game.
 
-The design and logic are based on the project documentation **Dinasor.pdf**.
-
 ---
 
 ## 🎮 Project Idea
@@ -122,12 +120,3 @@ If you need to tune performance, adjust:
 - **Yasin Shadrouh**
 
 GitHub: https://github.com/Hamedius
-
----
-
-This repository is designed to be **clean and CV‑friendly**, highlighting your skills in:
-
-- STM32 embedded development
-- HAL drivers (ADC, TIM, GPIO)
-- Real‑time control logic
-- Mechatronics / hardware–software integration
