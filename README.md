@@ -118,5 +118,3 @@ If you need to tune performance, adjust:
 
 - **Hamed Nahvi**
 - **Yasin Shadrouh**
-
-GitHub: https://github.com/Hamedius
