@@ -5,7 +5,7 @@ An STM32 Nucleo board reads a photoresistor (LDR) pointed at the game screen and
 
 ---
 
-## 🎮 Project Idea
+##  Project Idea
 
 The goal of this project is to:
 
@@ -22,7 +22,7 @@ This demonstrates:
 
 ---
 
-## 🧩 Hardware
+##  Hardware
 
 Typical setup:
 
@@ -37,7 +37,7 @@ When a cactus passes in front, the brightness changes → ADC value changes → 
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 stm32-dino-game-automation/
@@ -54,7 +54,7 @@ stm32-dino-game-automation/
 
 ---
 
-## 🧠 Firmware Logic (Summary)
+##  Firmware Logic (Summary)
 
 Core loop reads the ADC and controls the servo:
 
@@ -84,7 +84,7 @@ The rest of `main.c` (clock, ADC, TIM1, GPIO init) is already set up for you.
 
 ---
 
-## ▶️ How to Use (STM32CubeIDE)
+##  How to Use (STM32CubeIDE)
 
 1. **Create a new STM32CubeIDE project** for your Nucleo board (e.g., Nucleo-F411RE).  
 2. In that project, replace the generated `Core/Src/main.c` with the `src/main.c` from this repo.
@@ -104,7 +104,7 @@ If you need to tune performance, adjust:
 
 ---
 
-## 🧪 Possible Improvements
+##  Possible Improvements
 
 - Adaptive threshold (auto-calibrate based on average light level)  
 - Use an **HID keyboard emulator** instead of mechanical pressing  
@@ -114,7 +114,7 @@ If you need to tune performance, adjust:
 
 ---
 
-## 👤 Authors
+##  Authors
 
 - **Hamed Nahvi**
 - **Yasin Shadrouh**
